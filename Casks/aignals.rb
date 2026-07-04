@@ -1,6 +1,6 @@
 cask "aignals" do
-  version "0.5.0"
-  sha256 "07ee6cbe8cdb6328154e0204ed691561348769494946a382cd5d62ce02783bbc"
+  version "0.5.1"
+  sha256 "c363b03de53eab43cde488ebec30b30daefb85f5771e8ba35417a7ebd9d70576"
 
   url "https://github.com/Jesse1211/Aignals/releases/download/v#{version}/Aignals-#{version}.dmg"
   name "Aignals"
