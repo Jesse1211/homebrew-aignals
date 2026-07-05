@@ -1,6 +1,6 @@
 cask "aignals" do
-  version "0.5.1"
-  sha256 "c363b03de53eab43cde488ebec30b30daefb85f5771e8ba35417a7ebd9d70576"
+  version "0.6.0"
+  sha256 "da0ce74d94b3941829ce05f03483e43c7abb90b346f3a6e5cb54e53af1f02399"
 
   url "https://github.com/Jesse1211/Aignals/releases/download/v#{version}/Aignals-#{version}.dmg"
   name "Aignals"
@@ -8,6 +8,7 @@ cask "aignals" do
   homepage "https://github.com/Jesse1211/Aignals"
 
   app "Aignals.app"
+  auto_updates true
 
   zap trash: [
     "~/.aignals",
